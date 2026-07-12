@@ -72,7 +72,7 @@ h1{
     margin-bottom: 20px;
 }
 
-p{
+.banner-subtext{
     margin-bottom: 150px;
 }
 
@@ -91,6 +91,7 @@ p{
 .speaker-card{
     border: 1px solid rgb(194, 194, 194);
     border-radius: 10px;
+
 }
 
 .speaker-img{
@@ -120,4 +121,104 @@ p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    
+}
+
+.pricing-grid{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
+    text-align: left;
+}
+
+.pricing-title{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.pricing-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 50px;
+    text-align: center;
+}
+
+.pricing-subtext {
+    color: #666;
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+}
+
+.pricing-card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 28px 24px;
+    background-color: #ffffff;
+}
+
+.price-features{
+    list-style: none;
+}
+
+.price-features li{
+    font-size: 0.85rem;
+    padding: 6px 0;
+}
+
+.pricing-tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #888;
+}
+
+.price-amount {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 10px 0px 0px;
+}
+
+.price-unit{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #888;
+}
+
+.price-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.price-btn-outline{
+    border: 1px solid #2f5bf6;
+    color: #2f5bf6;
+    background: white;
+}
+
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+.price-btn-solid {
+    background-color: #2f5bf6;
+    border: none;
+    color: #ffffff;
+    margin-top: 12px;
+}
+
+.price-card-featured {
+    background-color: #14142b;
+    color: #ffffff;
+    border: none;
+}
+
+.price-btn-team{
+    background-color: transparent;
 }
