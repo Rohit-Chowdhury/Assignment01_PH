@@ -222,3 +222,26 @@ h1{
 .price-btn-team{
     background-color: transparent;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1526;
+    padding: 40px 40px;
+}
+
+.footer-left{
+    color: #a3a3a3;
+    font-size: 0.8rem;
+}
+
+.footer-right p{
+    color: #a3a3a3;
+    font-size: 0.8rem;
+}
+
+.footer-right{
+    display: flex;
+    gap: 24px;
+}
