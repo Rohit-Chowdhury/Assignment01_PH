@@ -1,0 +1,1 @@
+I want to design a placeholder section for my website. What can I build that will perfectly go with my existing design?(A screenshot of the website is given for better understanding)
